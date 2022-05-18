@@ -10,7 +10,7 @@ import { environment } from 'src/environments/environment';
 export class AutentificacionService {
    apiServerUrl = environment.apiBaseUrl;
 
-   url="*";
+   url="http://localhost:8080";
 
   currentUserSubject: BehaviorSubject<any>;
   constructor(private http:HttpClient) {
