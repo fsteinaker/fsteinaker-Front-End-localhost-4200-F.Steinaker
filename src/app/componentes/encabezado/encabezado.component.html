@@ -1,0 +1,24 @@
+<section id="cabecera">
+    <div id="logo_argentina_programa">
+        <img class="isotipo" src=".\assets\img\logo_argentina_programa.jpg">
+    </div>
+
+    <div ><a href="https://www.argentina.gob.ar/produccion/argentina-programa/segunda-etapa" target="_blank"><p id="texto_arg_p">Argentina Programa - #YoProgramo</p></a></div>
+
+    <div class="social">
+        <ul>
+            <li style="margin-left: 70px; margin-top: 7.5px;"><a href="https://www.facebook.com/fedes76/" target="_blank"><i class="fa fa-lg fa-facebook"></i></a></li>
+            <li><a href="https://github.com/fsteinaker" target="_blank"><i class="fa fa-lg fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/federico-steinaker-11605a57/" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>       
+            <li><a href="https://www.instagram.com/fedes_76" target="_blank"><i class="fa fa-lg fa-instagram"></i></a></li>
+            <li><a href="#"><img src="https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/64/000000/external-logout-real-estate-kmg-design-detailed-outline-kmg-design.png" id="log-icon"></a></li>  
+        </ul>
+    </div>
+    <img id="img_cabecera" src=".\assets\img\rafaela.png">
+    <img id="foto_cv" [src]="miPorfolio.usuario.imagen">
+    <p id="nombre_fede">{{miPorfolio.usuario.nombre}}</p>
+</section>
+
+<section id="datos_cv">
+    <p class="datos_cv_info">{{miPorfolio.usuario.localidad}}<br>{{miPorfolio.usuario.edad}} años, {{miPorfolio.usuario.profesion}}</p><img src=".\assets\icon\edit_icon.png" class="edit-icon" style="margin-top: 10px; margin-right: 45px;" onclick="ventana_notificacion()" role="button">
+</section>
