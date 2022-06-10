@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { EncabezadoComponent } from './encabezado.component';
+import { AuthService } from 'src/app/services/auth.service';
 
 describe('EncabezadoComponent', () => {
   let component: EncabezadoComponent;
